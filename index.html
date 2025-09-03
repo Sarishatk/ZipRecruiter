@@ -1,65 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-      <!-- bootstrap -->
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZipRecruiter</title>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./style.css">
-
+  <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-    <!-- navbar -->
-     <nav class="navbar position-sticky top-0 navbar-expand-lg ">
-        <div class="container">
-            <a style="margin-left: 35px;" class="edunest text-white text-decoration-none fw-bolder text-dark fs-2"
-                href="#">ZipRecruiter</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-5 me-auto gap-4 fs-5">
-                    <li style="margin-left: 140px;" class="nav-item">
-                        <a href="index.html" class="nav-link active text-white " aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item ">
-                        
-                        <a href="about.html" class="nav-link  text-white" aria-disabled="true">Employer</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="entrol.html" class="nav-link text-white " href="#">Candiate</a>
-                    </li>
-                   <li class="nav-item ">
-                        <a href="contact.html" class="nav-link text-dark text-white" aria-disabled="true">Pages</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a href="contact.html" class="nav-link text-dark text-white" aria-disabled="true">Contact</a>
-                    </li>
-                    </li>
-                    <div style="margin-left: 160px;" class="d-flex w-50 justify-content-center align-items-center gap-2 ">
-                        <a href="login.html" type="button" class="btn second-btn rounded-pill border border-black bg-success text-white p-2">login
-                            in</a>
-                        <a href="signup.html" type="button" class="btn rounded-pill border p-2 bg-success text-white">register</a>
-                    </div>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- navbar end -->
+<body class="bg-dark">
 
-    
-<div class="row align-items-center">
-  <div class="col-6">
-    <p style="margin-top: 200px;margin-left: 170px;font-size: 50px;" class="text-white  fw-bolder ">Search Between More <br> Then<span style="font-size: 50px;" class="text-success"> 50,000</span> Open Jobs.</p>
-    <p style="margin-left: 170px;" class="text-white fw-bolder">Trending job keys :<span  class="text-success fw-bolder fs-5"> web developer ||  web designer  ||  IOS developer  </span></span>
-</div>
-  <div class="col-6"></div>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bolder fs-2" href="#">ZipRecruiter</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto gap-3 fs-5">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">Employer</a>
+          </li>
+          <li class="nav-item">
+            <a href="entrol.html" class="nav-link">Candidate</a>
+          </li>
+          <li class="nav-item">
+            <a href="pages.html" class="nav-link">Pages</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+
+        <div class="d-flex ms-lg-4 mt-3 mt-lg-0 gap-2">
+          <a href="login.html" class="btn btn-light text-success rounded-pill px-3">Login</a>
+          <a href="signup.html" class="btn btn-outline-light rounded-pill px-3">Register</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end -->
+
+  <!-- hero section -->
+  <div class="container py-5">
+    <div class="row align-items-center">
+      <div style="margin-top: 150px;" class="col-lg-6 text-center text-lg-start ">
+        <h1 class="fw-bolder text-white display-5 ">
+          Search Between More <br>
+          Than <span class="text-success">50,000</span> Open Jobs.
+        </h1>
+        <p class="text-white fw-bold mt-3">
+          Trending job keys :
+          <span class="text-success fs-5">Web Developer || Web Designer || iOS Developer</span>
+        </p>
+      </div>
+      <div class="col-lg-6 text-center">
+      </div>
+    </div>
+  </div>
+
+  <!-- latest jobs -->
+   
+<div class="container  vh-100 d-flex justify-content-center align-items-center  text-white">
+  <div class="row ">
+    <div class="col-3"><div class="card">
+  <div class="card-body">
+    <h5 style="background-color: #aaf0c9;" class="card-title text-success border border-success w-50 text-center mb-4 ">Full Time</h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary"><img style="margin-left: 55px;" class="w-50 h-50 rounded-circle " src="https://utouchdesign.com/themes/envato/escort/assets/img/company_logo_1.png" alt=""></h6>
+    <p class="card-text text-center fw-bolder">Product Redesign</p>
+       <p class="card-text text-center ">2708 Scenic Way, IL 62373</p>
+
+  </div>
+</div></div>
+    <div class="col-3"><div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div></div>
+    <div class="col-3"><div class="card" >
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div></div>
+ <div class="col-3"><div class="card">
+  <div class="card-body">
+    <h5 style="background-color: #aaf0c9;" class="card-title text-success border border-success w-50 text-center mb-4 ">Full Time</h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary"><img style="margin-left: 55px;" class="w-50 h-50 rounded-circle " src="https://utouchdesign.com/themes/envato/escort/assets/img/company_logo_1.png" alt=""></h6>
+    <p class="card-text text-center fw-bolder">Product Redesign</p>
+       <p class="card-text text-center ">2708 Scenic Way, IL 62373</p>
+
+  </div>
+</div></div>
+  </div>
 </div>
 </body>
 </html>
+
