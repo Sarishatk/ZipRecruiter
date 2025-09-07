@@ -6,7 +6,7 @@ body {
 }
 
 
-body::before {
+body.index-page::before {
     content: "";
     position: fixed;
     top: 0;
