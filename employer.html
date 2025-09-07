@@ -12,76 +12,270 @@
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./style.css">
 
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="employer  bg-white">
-  <!-- navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top shadow-lg">
-  <div class="container">
-    <!-- Brand -->
-    <a class="navbar-brand fw-bolder fs-2 text-uppercase tracking-wider" href="#">
-      <span class="text-light">Zip</span><span class="text-warning">Recruiter</span>
-    </a>
-
-    <!-- Toggler -->
-    <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
-      data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <!-- Links -->
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto gap-3 fs-5">
-        <li class="nav-item">
-          <a href="index.html" class="nav-link active fw-semibold position-relative">
-            Home
+    <div class="container">
+      <a class="navbar-brand fw-bolder fs-2 text-uppercase tracking-wider" href="#">
+        <span class="text-light">Zip</span><span class="text-warning">Recruiter</span>
+      </a>
+      <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto gap-3 fs-5">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link active fw-semibold position-relative">
+              Home
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-semibold" href="#" id="dropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Employer
+            </a>
+            <ul class="dropdown-menu border-0 shadow-lg rounded-3">
+              <li><a class="dropdown-item py-2" href="#">Employer</a></li>
+              <li><a class="dropdown-item py-2" href="#">Employer Details</a></li>
+              <li><a class="dropdown-item py-2" href="#">Create Company</a></li>
+              <li><a class="dropdown-item py-2" href="#">Manage Resume</a></li>
+              <li><a class="dropdown-item py-2" href="#">Add Job</a></li>
+              <li><a class="dropdown-item py-2" href="#">Resume Details</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="entrol.html" class="nav-link fw-semibold">Candidate</a>
+          </li>
+          <li class="nav-item">
+            <a href="pages.html" class="nav-link fw-semibold">Pages</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link fw-semibold">Contact</a>
+          </li>
+        </ul>
+        <div class="d-flex ms-lg-4 mt-3 mt-lg-0 gap-2">
+          <a href="login.html" class="btn btn-light text-success rounded-pill px-4 shadow-sm fw-semibold">
+            Login
           </a>
-        </li>
-
-        <!-- Dropdown -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle fw-semibold" href="#" id="dropdownMenuLink" role="button"
-            data-bs-toggle="dropdown" aria-expanded="false">
-            Employer
+          <a href="signup.html" class="btn btn-outline-light rounded-pill px-4 fw-semibold">
+            Register
           </a>
-          <ul class="dropdown-menu border-0 shadow-lg rounded-3">
-            <li><a class="dropdown-item py-2" href="#">Employer</a></li>
-            <li><a class="dropdown-item py-2" href="#">Employer Details</a></li>
-            <li><a class="dropdown-item py-2" href="#">Create Company</a></li>
-            <li><a class="dropdown-item py-2" href="#">Manage Resume</a></li>
-            <li><a class="dropdown-item py-2" href="#">Add Job</a></li>
-            <li><a class="dropdown-item py-2" href="#">Resume Details</a></li>
-
-
-          </ul>
-        </li>
-
-        <li class="nav-item">
-          <a href="entrol.html" class="nav-link fw-semibold">Candidate</a>
-        </li>
-        <li class="nav-item">
-          <a href="pages.html" class="nav-link fw-semibold">Pages</a>
-        </li>
-        <li class="nav-item">
-          <a href="contact.html" class="nav-link fw-semibold">Contact</a>
-        </li>
-      </ul>
-
-      <!-- Buttons -->
-      <div class="d-flex ms-lg-4 mt-3 mt-lg-0 gap-2">
-        <a href="login.html" class="btn btn-light text-success rounded-pill px-4 shadow-sm fw-semibold">
-          Login
-        </a>
-        <a href="signup.html" class="btn btn-outline-light rounded-pill px-4 fw-semibold">
-          Register
-        </a>
+        </div>
       </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
-  <!-- navbar end -->
+  <div class="image w-100">
+    <img
+      src="https://media.istockphoto.com/id/1347652268/photo/group-of-colleagues-celebrating-success.jpg?s=612x612&w=0&k=20&c=dojtkf9ItX21j3jtlGOGpbKDs320TTAuofoGnNSZD8Y="
+      alt="" class="img-fluid rounded shadow" style="object-fit: cover; height: 150px; width: 100%;">
+
+    <div class="position-relative">
+      <div style="left: 42%;top: -100px;" class="position-absolute">
+        <h3>Employer <span class="text-light">>></span></h3>
+      </div>
+    </div>
+  </div>  <div class="container">
+    <div class="row g-4 mt-5">
+
+      <div class="col-md-3">
+  <div class="card shadow border-0 rounded-3 h-100 text-center p-4 category-card position-relative">
+    <div class="position-absolute top-0 end-0 translate-middle p-2">
+      <div class="d-inline-flex align-items-center justify-content-center 
+                  bg-success text-light border rounded-circle" 
+           style="width:40px; height:40px;">
+        <i class="fa-solid fa-heart"></i>
+      </div>
+    </div>
+    <div>
+      <img style="width: 100px; height: 100px;" class="rounded-circle"
+        src="https://media.istockphoto.com/id/1437816897/photo/business-woman-manager-or-human-resources-portrait-for-career-success-company-we-are-hiring.jpg?s=612x612&w=0&k=20&c=tyLvtzutRh22j9GqSGI33Z4HpIwv9vL_MZw_xOE19NQ="
+        alt="">
+    </div>
+    <h5 class="fw-bold mt-3">John Willioms</h5>
+    <p class="text-muted small">Catterline AB3 9TR</p>
+  </div>
+</div>
+
+
+      <div class="col-md-3">
+  <div class="card shadow border-0 rounded-3 h-100 text-center p-4 category-card position-relative">
+    <div class="position-absolute top-0 end-0 translate-middle p-2">
+      <div class="d-inline-flex align-items-center justify-content-center 
+                  bg-success text-light border rounded-circle" 
+           style="width:40px; height:40px;">
+        <i class="fa-solid fa-heart"></i>
+      </div>
+    </div>
+    <div>
+      <img style="width: 100px; height: 100px;" class="rounded-circle"
+        src="https://media.istockphoto.com/id/1437816897/photo/business-woman-manager-or-human-resources-portrait-for-career-success-company-we-are-hiring.jpg?s=612x612&w=0&k=20&c=tyLvtzutRh22j9GqSGI33Z4HpIwv9vL_MZw_xOE19NQ="
+        alt="">
+    </div>
+    <h5 class="fw-bold mt-3">John Willioms</h5>
+    <p class="text-muted small">Catterline AB3 9TR</p>
+  </div>
+</div>
+      <div class="col-md-3">
+  <div class="card shadow border-0 rounded-3 h-100 text-center p-4 category-card position-relative">
+    <div class="position-absolute top-0 end-0 translate-middle p-2">
+      <div class="d-inline-flex align-items-center justify-content-center 
+                  bg-success text-light border rounded-circle" 
+           style="width:40px; height:40px;">
+        <i class="fa-solid fa-heart"></i>
+      </div>
+    </div>
+    <div>
+      <img style="width: 100px; height: 100px;" class="rounded-circle"
+        src="https://media.istockphoto.com/id/1437816897/photo/business-woman-manager-or-human-resources-portrait-for-career-success-company-we-are-hiring.jpg?s=612x612&w=0&k=20&c=tyLvtzutRh22j9GqSGI33Z4HpIwv9vL_MZw_xOE19NQ="
+        alt="">
+    </div>
+    <h5 class="fw-bold mt-3">John Willioms</h5>
+    <p class="text-muted small">Catterline AB3 9TR</p>
+  </div>
+</div>
+      <div class="col-md-3">
+  <div class="card shadow border-0 rounded-3 h-100 text-center p-4 category-card position-relative">
+    <div class="position-absolute top-0 end-0 translate-middle p-2">
+      <div class="d-inline-flex align-items-center justify-content-center 
+                  bg-success text-light border rounded-circle" 
+           style="width:40px; height:40px;">
+        <i class="fa-solid fa-heart"></i>
+      </div>
+    </div>
+    <div>
+      <img style="width: 100px; height: 100px;" class="rounded-circle"
+        src="https://media.istockphoto.com/id/1437816897/photo/business-woman-manager-or-human-resources-portrait-for-career-success-company-we-are-hiring.jpg?s=612x612&w=0&k=20&c=tyLvtzutRh22j9GqSGI33Z4HpIwv9vL_MZw_xOE19NQ="
+        alt="">
+    </div>
+    <h5 class="fw-bold mt-3">John Willioms</h5>
+    <p class="text-muted small">Catterline AB3 9TR</p>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+  <div class="container mb-5">
+    <div class="row g-4 mt-5">
+      <div class="col-md-3">
+  <div class="card shadow border-0 rounded-3 h-100 text-center p-4 category-card position-relative">
+    <div class="position-absolute top-0 end-0 translate-middle p-2">
+      <div class="d-inline-flex align-items-center justify-content-center 
+                  bg-success text-light border rounded-circle" 
+           style="width:40px; height:40px;">
+        <i class="fa-solid fa-heart"></i>
+      </div>
+    </div>
+    <div>
+      <img style="width: 100px; height: 100px;" class="rounded-circle"
+        src="https://media.istockphoto.com/id/1437816897/photo/business-woman-manager-or-human-resources-portrait-for-career-success-company-we-are-hiring.jpg?s=612x612&w=0&k=20&c=tyLvtzutRh22j9GqSGI33Z4HpIwv9vL_MZw_xOE19NQ="
+        alt="">
+    </div>
+    <h5 class="fw-bold mt-3">John Willioms</h5>
+    <p class="text-muted small">Catterline AB3 9TR</p>
+  </div>
+</div>
+
+
+      <div class="col-md-3">
+  <div class="card shadow border-0 rounded-3 h-100 text-center p-4 category-card position-relative">
+
+    <!-- Heart icon in top-right -->
+    <div class="position-absolute top-0 end-0 translate-middle p-2">
+      <div class="d-inline-flex align-items-center justify-content-center 
+                  bg-success text-light border rounded-circle" 
+           style="width:40px; height:40px;">
+        <i class="fa-solid fa-heart"></i>
+      </div>
+    </div>
+
+    <!-- Card content -->
+    <div>
+      <img style="width: 100px; height: 100px;" class="rounded-circle"
+        src="https://media.istockphoto.com/id/1437816897/photo/business-woman-manager-or-human-resources-portrait-for-career-success-company-we-are-hiring.jpg?s=612x612&w=0&k=20&c=tyLvtzutRh22j9GqSGI33Z4HpIwv9vL_MZw_xOE19NQ="
+        alt="">
+    </div>
+    <h5 class="fw-bold mt-3">John Willioms</h5>
+    <p class="text-muted small">Catterline AB3 9TR</p>
+  </div>
+</div>
+
+
+      <div class="col-md-3">
+  <div class="card shadow border-0 rounded-3 h-100 text-center p-4 category-card position-relative">
+
+    <!-- Heart icon in top-right -->
+    <div class="position-absolute top-0 end-0 translate-middle p-2">
+      <div class="d-inline-flex align-items-center justify-content-center 
+                  bg-success text-light border rounded-circle" 
+           style="width:40px; height:40px;">
+        <i class="fa-solid fa-heart"></i>
+      </div>
+    </div>
+
+    <!-- Card content -->
+    <div>
+      <img style="width: 100px; height: 100px;" class="rounded-circle"
+        src="https://media.istockphoto.com/id/1437816897/photo/business-woman-manager-or-human-resources-portrait-for-career-success-company-we-are-hiring.jpg?s=612x612&w=0&k=20&c=tyLvtzutRh22j9GqSGI33Z4HpIwv9vL_MZw_xOE19NQ="
+        alt="">
+    </div>
+    <h5 class="fw-bold mt-3">John Willioms</h5>
+    <p class="text-muted small">Catterline AB3 9TR</p>
+  </div>
+</div>
+
+
+     <div class="col-md-3">
+  <div class="card shadow border-0 rounded-3 h-100 text-center p-4 category-card position-relative">
+
+    <!-- Heart icon in top-right -->
+    <div class="position-absolute top-0 end-0 translate-middle p-2">
+      <div class="d-inline-flex align-items-center justify-content-center 
+                  bg-success text-light border rounded-circle" 
+           style="width:40px; height:40px;">
+        <i class="fa-solid fa-heart"></i>
+      </div>
+    </div>
+
+    <!-- Card content -->
+    <div>
+      <img style="width: 100px; height: 100px;" class="rounded-circle"
+        src="https://media.istockphoto.com/id/1437816897/photo/business-woman-manager-or-human-resources-portrait-for-career-success-company-we-are-hiring.jpg?s=612x612&w=0&k=20&c=tyLvtzutRh22j9GqSGI33Z4HpIwv9vL_MZw_xOE19NQ="
+        alt="">
+    </div>
+    <h5 class="fw-bold mt-3">John Willioms</h5>
+    <p class="text-muted small">Catterline AB3 9TR</p>
+  </div>
+</div>
+
+
+    </div>
+  </div>
+
+  <div class="newsletter-section position-relative text-center text-white">
+  <img src="https://static.vecteezy.com/system/resources/thumbnails/023/596/959/small/green-background-green-abstract-background-green-background-design-illustration-abstract-futuristic-background-green-gradient-background-website-background-free-vector.jpg" 
+       alt="Newsletter Background" 
+       class="w-100" 
+       style="height: 250px; object-fit: cover;">
+  <div class="position-absolute top-50 start-50 translate-middle w-100 px-3">
+    <h2 class="fw-bolder">Subscribe Our Newsletter!</h2>
+    <p class="mb-4">
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+      It has been the industry's standard dummy text ever since when an unknown 
+      printer took a galley.
+    </p>    <div class="d-flex justify-content-center">
+      <input type="email" class="form-control w-50 rounded-start-pill" placeholder="Enter your email">
+      <button class="btn btn-warning rounded-end-pill px-4 fw-semibold">Subscribe</button>
+    </div>
+  </div>
+</div>
+
 </body>
 
 </html>
