@@ -17,40 +17,69 @@
 <body class="bg-dark">
 
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top">
-    <div class="container">
-      <a class="navbar-brand fw-bolder fs-2" href="#">ZipRecruiter</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top shadow-lg">
+  <div class="container">
+    <!-- Brand -->
+    <a class="navbar-brand fw-bolder fs-2 text-uppercase tracking-wider" href="#">
+      <span class="text-light">Zip</span><span class="text-warning">Recruiter</span>
+    </a>
 
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto gap-3 fs-5">
-          <li class="nav-item">
-            <a href="index.html" class="nav-link active">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="employer.html" class="nav-link">Employer</a>
-          </li>
-          <li class="nav-item">
-            <a href="entrol.html" class="nav-link">Candidate</a>
-          </li>
-          <li class="nav-item">
-            <a href="pages.html" class="nav-link">Pages</a>
-          </li>
-          <li class="nav-item">
-            <a href="contact.html" class="nav-link">Contact</a>
-          </li>
-        </ul>
+    <!-- Toggler -->
+    <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="d-flex ms-lg-4 mt-3 mt-lg-0 gap-2">
-          <a href="login.html" class="btn btn-light text-success rounded-pill px-3">Login</a>
-          <a href="signup.html" class="btn btn-outline-light rounded-pill px-3">Register</a>
-        </div>
+    <!-- Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto gap-3 fs-5">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link active fw-semibold position-relative">
+            Home
+          </a>
+        </li>
+
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle fw-semibold" href="employer.html" id="dropdownMenuLink" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Employer
+          </a>
+          <ul class="dropdown-menu border-0 shadow-lg rounded-3">
+            <li><a class="dropdown-item py-2" href="#">Employer</a></li>
+            <li><a class="dropdown-item py-2" href="#">Employer Details</a></li>
+            <li><a class="dropdown-item py-2" href="#">Create Company</a></li>
+            <li><a class="dropdown-item py-2" href="#">Manage Resume</a></li>
+            <li><a class="dropdown-item py-2" href="#">Add Job</a></li>
+            <li><a class="dropdown-item py-2" href="#">Resume Details</a></li>
+
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a href="entrol.html" class="nav-link fw-semibold">Candidate</a>
+        </li>
+        <li class="nav-item">
+          <a href="pages.html" class="nav-link fw-semibold">Pages</a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link fw-semibold">Contact</a>
+        </li>
+      </ul>
+
+      <!-- Buttons -->
+      <div class="d-flex ms-lg-4 mt-3 mt-lg-0 gap-2">
+        <a href="login.html" class="btn btn-light text-success rounded-pill px-4 shadow-sm fw-semibold">
+          Login
+        </a>
+        <a href="signup.html" class="btn btn-outline-light rounded-pill px-4 fw-semibold">
+          Register
+        </a>
       </div>
     </div>
-  </nav>
+  </div>
+</nav>
+
   <!-- navbar end -->
 
   <!-- hero section -->
