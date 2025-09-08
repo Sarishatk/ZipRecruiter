@@ -2,180 +2,127 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>employer</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./style.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
 </head>
 
 <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top shadow-lg">
-        <div class="container">
-            <a class="navbar-brand fw-bolder fs-2 text-uppercase tracking-wider" href="#">
-                <span class="text-light">Zip</span><span class="text-warning">Recruiter</span>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top shadow-lg">
+    <div class="container">
+      <a class="navbar-brand fw-bolder fs-2 text-uppercase" href="#">
+        <span class="text-light">Zip</span><span class="text-warning">Recruiter</span>
+      </a>
+      <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto gap-3 fs-5">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link active fw-semibold">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-semibold" href="#" id="dropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Employer
             </a>
-            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto gap-3 fs-5">
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link active fw-semibold position-relative">
-                            Home
-                        </a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle fw-semibold" href="#" id="dropdownMenuLink" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Employer
-                        </a>
-                        <ul class="dropdown-menu border-0 shadow-lg rounded-3">
-                            <li><a class="dropdown-item py-2" href="#">Employer</a></li>
-                            <li><a class="dropdown-item py-2" href="#">Employer Details</a></li>
-                            <li><a class="dropdown-item py-2" href="#">Create Company</a></li>
-                            <li><a class="dropdown-item py-2" href="#">Manage Resume</a></li>
-                            <li><a class="dropdown-item py-2" href="#">Add Job</a></li>
-                            <li><a class="dropdown-item py-2" href="#">Resume Details</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a href="entrol.html" class="nav-link fw-semibold">Candidate</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="pages.html" class="nav-link fw-semibold">Pages</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="contact.html" class="nav-link fw-semibold">Contact</a>
-                    </li>
-                </ul>
-                <div class="d-flex ms-lg-4 mt-3 mt-lg-0 gap-2">
-                    <a href="login.html" class="btn btn-light text-success rounded-pill px-4 shadow-sm fw-semibold">
-                        Login
-                    </a>
-                    <a href="signup.html" class="btn btn-outline-light rounded-pill px-4 fw-semibold">
-                        Register
-                    </a>
-                </div>
-            </div>
+            <ul class="dropdown-menu border-0 shadow-lg rounded-3">
+              <li><a class="dropdown-item" href="#">Employer</a></li>
+              <li><a class="dropdown-item" href="#">Employer Details</a></li>
+              <li><a class="dropdown-item" href="#">Create Company</a></li>
+              <li><a class="dropdown-item" href="#">Manage Resume</a></li>
+              <li><a class="dropdown-item" href="#">Add Job</a></li>
+              <li><a class="dropdown-item" href="#">Resume Details</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="entrol.html" class="nav-link fw-semibold">Candidate</a></li>
+          <li class="nav-item"><a href="pages.html" class="nav-link fw-semibold">Pages</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link fw-semibold">Contact</a></li>
+        </ul>
+        <div class="d-flex ms-lg-4 mt-3 mt-lg-0 gap-2">
+          <a href="login.html" class="btn btn-light text-success rounded-pill px-4 fw-semibold">Login</a>
+          <a href="signup.html" class="btn btn-outline-light rounded-pill px-4 fw-semibold">Register</a>
         </div>
-    </nav>
-    <!-- nav end -->
-    <!-- image session -->
-    <div class="image w-100">
-        <img src="https://media.istockphoto.com/id/1347652268/photo/group-of-colleagues-celebrating-success.jpg?s=612x612&w=0&k=20&c=dojtkf9ItX21j3jtlGOGpbKDs320TTAuofoGnNSZD8Y="
-            alt="" class="img-fluid rounded shadow" style="object-fit: cover; height: 150px; width: 100%;">
-
-        <div class="position-relative">
-            <div style="left: 42%;top: -100px;" class="position-absolute">
-                <h3 class="fw-bolder text-light">Employer Details <span class="text-light">>></span></h3>
-            </div>
-        </div>
+      </div>
     </div>
-    <!-- end -->
+  </nav>
+  <!-- nav end -->
 
-    <!-- profile session -->
-    <div class="container my-5">
-        <div class="row shadow-lg p-4 rounded-4 align-items-center bg-white">
-            <div class="col-md-4 text-center">
-                <img class="rounded-3 shadow w-100"
-                    src="https://www.shutterstock.com/image-photo/smiling-african-american-millennial-businessman-600nw-1437938108.jpg"
-                    alt="Profile Image">
-            </div>
-            <div class="col-md-4 text-center text-md-start mt-4 mt-md-0">
-                <h2 class="fw-bold mb-1">Daniel Dicoss</h2>
-                <p class="text-success fw-semibold">Account Manager</p>
-                <ul class="list-unstyled text-muted small">
-                    <li><i class="fa-solid fa-location-dot text-success me-2"></i> MT-587, Near Bue Market Qch52, New
-                        York</li>
-                    <li><i class="fa-solid fa-phone text-success me-2"></i> +91 234 567 8765</li>
-                    <li><i class="fa-solid fa-graduation-cap text-success me-2"></i> Bachelor Degree</li>
-                </ul>
-            </div>
-            <div class="col-md-4 text-center text-md-start mt-4 mt-md-0">
-                <ul class="list-unstyled text-muted small">
-                    <li><i class="fa-solid fa-globe text-success me-2"></i> <a href="https://www.example.com"
-                            class="text-decoration-none">www.example.com</a></li>
-                    <li><i class="fa-solid fa-envelope text-success me-2"></i> mail@example.com</li>
-                    <li><i class="fa-solid fa-briefcase text-success me-2"></i> 3 Years Experience</li>
-                </ul>
-            </div>
-
-        </div>
+  <!-- hero image -->
+  <div class="image w-100 position-relative">
+    <img
+      src="https://media.istockphoto.com/id/1347652268/photo/group-of-colleagues-celebrating-success.jpg?s=612x612&w=0&k=20&c=dojtkf9ItX21j3jtlGOGpbKDs320TTAuofoGnNSZD8Y="
+      alt="" class="img-fluid rounded shadow" style="object-fit: cover; height: 150px; width: 100%;">
+    <div class="position-absolute top-50 start-50 translate-middle text-center">
+      <h3 class="fw-bolder text-light">Employer Details <span class="text-light">>></span></h3>
     </div>
-<section class="py-5 bg-white">
+  </div>
+  <!-- end -->
+
+  <!-- profile -->
+  <div class="container my-5">
+    <div class="row shadow-lg p-4 rounded-4 bg-white text-center text-md-start">
+      <div class="col-md-4 mb-4 mb-md-0">
+        <img class="rounded-3 shadow w-100"
+          src="https://www.shutterstock.com/image-photo/smiling-african-american-millennial-businessman-600nw-1437938108.jpg"
+          alt="Profile Image">
+      </div>
+      <div class="col-md-4 mb-4 mb-md-0">
+        <h2 class="fw-bold mb-1">Daniel Dicoss</h2>
+        <p class="text-success fw-semibold">Account Manager</p>
+        <ul class="list-unstyled text-muted small">
+          <li><i class="fa-solid fa-location-dot text-success me-2"></i> MT-587, New York</li>
+          <li><i class="fa-solid fa-phone text-success me-2"></i> +91 234 567 8765</li>
+          <li><i class="fa-solid fa-graduation-cap text-success me-2"></i> Bachelor Degree</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-unstyled text-muted small">
+          <li><i class="fa-solid fa-globe text-success me-2"></i> <a href="https://www.example.com"
+              class="text-decoration-none">www.example.com</a></li>
+          <li><i class="fa-solid fa-envelope text-success me-2"></i> mail@example.com</li>
+          <li><i class="fa-solid fa-briefcase text-success me-2"></i> 3 Years Experience</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- job categories -->
+  <section class="py-5 bg-white">
     <div class="container">
       <div class="text-center mb-5">
         <h2 class="fw-bold text-success">Browse Job Categories</h2>
         <p class="text-muted">Find jobs by your area of expertise</p>
       </div>
-
-      <div class="row g-4 mb-5">
-        <div class="col-md-3">
-          <div class="card shadow-sm border-0 rounded-3 h-100 text-center p-4 category-card">
+      <div class="row g-4">
+        <div class="col-6 col-md-3">
+          <div class="card shadow-sm border-0 rounded-3 h-100 text-center p-4">
             <div class="fs-1 text-success mb-3">💻</div>
             <h5 class="fw-bold">IT & Software</h5>
             <p class="text-muted small">1200+ Jobs</p>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="card shadow-sm border-0 rounded-3 h-100 text-center p-4 category-card">
+        <div class="col-6 col-md-3">
+          <div class="card shadow-sm border-0 rounded-3 h-100 text-center p-4">
             <div class="fs-1 text-success mb-3">🎨</div>
             <h5 class="fw-bold">Design & Creative</h5>
             <p class="text-muted small">850+ Jobs</p>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="card shadow-sm border-0 rounded-3 h-100 text-center p-4 category-card">
+        <div class="col-6 col-md-3">
+          <div class="card shadow-sm border-0 rounded-3 h-100 text-center p-4">
             <div class="fs-1 text-success mb-3">📊</div>
             <h5 class="fw-bold">Marketing</h5>
             <p class="text-muted small">640+ Jobs</p>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="card shadow-sm border-0 rounded-3 h-100 text-center p-4 category-card">
-            <div class="fs-1 text-success mb-3">⚙️</div>
-            <h5 class="fw-bold">Engineering</h5>
-            <p class="text-muted small">500+ Jobs</p>
-          </div>
-        </div>
-      </div>
-
-       <div class="row g-4">
-        <div class="col-md-3">
-          <div class="card shadow-sm border-0 rounded-3 h-100 text-center p-4 category-card">
-            <div class="fs-1 text-success mb-3">💻</div>
-            <h5 class="fw-bold">IT & Software</h5>
-            <p class="text-muted small">1200+ Jobs</p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card shadow-sm border-0 rounded-3 h-100 text-center p-4 category-card">
-            <div class="fs-1 text-success mb-3">🎨</div>
-            <h5 class="fw-bold">Design & Creative</h5>
-            <p class="text-muted small">850+ Jobs</p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card shadow-sm border-0 rounded-3 h-100 text-center p-4 category-card">
-            <div class="fs-1 text-success mb-3">📊</div>
-            <h5 class="fw-bold">Marketing</h5>
-            <p class="text-muted small">640+ Jobs</p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card shadow-sm border-0 rounded-3 h-100 text-center p-4 category-card">
+        <div class="col-6 col-md-3">
+          <div class="card shadow-sm border-0 rounded-3 h-100 text-center p-4">
             <div class="fs-1 text-success mb-3">⚙️</div>
             <h5 class="fw-bold">Engineering</h5>
             <p class="text-muted small">500+ Jobs</p>
@@ -185,23 +132,21 @@
     </div>
   </section>
 
-   <div class="newsletter-section position-relative text-center text-white">
-  <img src="https://static.vecteezy.com/system/resources/thumbnails/023/596/959/small/green-background-green-abstract-background-green-background-design-illustration-abstract-futuristic-background-green-gradient-background-website-background-free-vector.jpg" 
-       alt="Newsletter Background" 
-       class="w-100" 
-       style="height: 250px; object-fit: cover;">
-  <div class="position-absolute top-50 start-50 translate-middle w-100 px-3">
-    <h2 class="fw-bolder">Subscribe Our Newsletter!</h2>
-    <p class="mb-4">
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-      It has been the industry's standard dummy text ever since when an unknown 
-      printer took a galley.
-    </p>    <div class="d-flex justify-content-center">
-      <input type="email" class="form-control w-50 rounded-start-pill" placeholder="Enter your email">
-      <button class="btn btn-warning rounded-end-pill px-4 fw-semibold">Subscribe</button>
+  <!-- newsletter -->
+  <div class="newsletter-section position-relative text-center text-white">
+    <img
+      src="https://static.vecteezy.com/system/resources/thumbnails/023/596/959/small/green-background-green-abstract-background-green-background-design-illustration-abstract-futuristic-background-green-gradient-background-website-background-free-vector.jpg"
+      alt="Newsletter Background" class="w-100" style="height: 250px; object-fit: cover;">
+    <div class="position-absolute top-50 start-50 translate-middle w-100 px-3">
+      <h2 class="fw-bolder">Subscribe Our Newsletter!</h2>
+      <p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      <div class="d-flex flex-column flex-md-row justify-content-center gap-2">
+        <input type="email" class="form-control w-100 w-md-50 rounded-pill" placeholder="Enter your email">
+        <button class="btn btn-warning rounded-pill px-4 fw-semibold">Subscribe</button>
+      </div>
     </div>
   </div>
-</div>
+
 </body>
 
 </html>

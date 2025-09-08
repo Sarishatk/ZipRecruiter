@@ -2,245 +2,213 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Browse Jobs</title>
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Jobs</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body class="bg-light">
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top shadow-lg">
-  <div class="container">
-    <!-- Brand -->
-    <a class="navbar-brand fw-bolder fs-2 text-uppercase tracking-wider" href="#">
-      <span class="text-light">Zip</span><span class="text-warning">Recruiter</span>
-    </a>
-
-    <!-- Toggler -->
-    <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
-      data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <!-- Links -->
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto gap-3 fs-5">
-        <li class="nav-item">
-          <a href="index.html" class="nav-link active fw-semibold position-relative">
-            Home
-          </a>
-        </li>
-
-        <!-- Dropdown -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle fw-semibold" href="employer.html" id="dropdownMenuLink" role="button"
-            data-bs-toggle="dropdown" aria-expanded="false">
-            Employer
-          </a>
-          <ul class="dropdown-menu border-0 shadow-lg rounded-3">
-            <li><a class="dropdown-item py-2" href="employer.html">Employer</a></li>
-            <li><a class="dropdown-item py-2" href="#">Employer Details</a></li>
-            <li><a class="dropdown-item py-2" href="#">Create Company</a></li>
-            <li><a class="dropdown-item py-2" href="#">Manage Resume</a></li>
-            <li><a class="dropdown-item py-2" href="#">Add Job</a></li>
-            <li><a class="dropdown-item py-2" href="#">Resume Details</a></li>
-
-          </ul>
-        </li>
-
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle fw-semibold" href="#" id="dropdownMenuLink" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Candidate
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top shadow-lg">
+        <div class="container"> <a class="navbar-brand fw-bolder fs-3 text-uppercase" href="#">
+                <span class="text-light">Zip</span><span class="text-warning">Recruiter</span>
             </a>
-            <ul class="dropdown-menu border-0 shadow-lg rounded-3">
-              <li><a class="dropdown-item py-2" href="#">Candidate</a></li>
-              <li><a class="dropdown-item py-2" href="candidate.html">Browse Jobs</a></li>
-              <li><a class="dropdown-item py-2" href="#">Manage Jobs</a></li>
-              <li><a class="dropdown-item py-2" href="#">Browse Catergories</a></li>
-            </ul>
-          </li>
-        <li class="nav-item">
-          <a href="pages.html" class="nav-link fw-semibold">Pages</a>
-        </li>
-        <li class="nav-item">
-          <a href="contact.html" class="nav-link fw-semibold">Contact</a>
-        </li>
-      </ul>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto gap-lg-3 fs-6">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active fw-semibold">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-semibold" href="#" id="dropdownMenuLink1" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Employer</a>
+                        <ul class="dropdown-menu shadow">
+                            <li><a class="dropdown-item" href="employer.html">Employer</a></li>
+                            <li><a class="dropdown-item" href="#">Employer Details</a></li>
+                            <li><a class="dropdown-item" href="#">Create Company</a></li>
+                            <li><a class="dropdown-item" href="#">Manage Resume</a></li>
+                            <li><a class="dropdown-item" href="#">Add Job</a></li>
+                            <li><a class="dropdown-item" href="#">Resume Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-semibold" href="#" id="dropdownMenuLink2" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Candidate</a>
+                        <ul class="dropdown-menu shadow">
+                            <li><a class="dropdown-item" href="#">Candidate</a></li>
+                            <li><a class="dropdown-item" href="candidate.html">Browse Jobs</a></li>
+                            <li><a class="dropdown-item" href="#">Manage Jobs</a></li>
+                            <li><a class="dropdown-item" href="#">Browse Categories</a></li>
+                        </ul>
+                    </li>
 
-      <!-- Buttons -->
-      <div class="d-flex ms-lg-4 mt-3 mt-lg-0 gap-2">
-        <a href="login.html" class="btn btn-light text-success rounded-pill px-4 shadow-sm fw-semibold">
-          Login
-        </a>
-        <a href="signup.html" class="btn btn-outline-light rounded-pill px-4 fw-semibold">
-          Register
-        </a>
-      </div>
+                    <li class="nav-item"><a href="pages.html" class="nav-link fw-semibold">Pages</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link fw-semibold">Contact</a></li>
+                </ul>
+                <div class="d-flex ms-lg-4 mt-3 mt-lg-0 gap-2">
+                    <a href="login.html" class="btn btn-light text-success rounded-pill px-4 fw-semibold">Login</a>
+                    <a href="signup.html" class="btn btn-outline-light rounded-pill px-4 fw-semibold">Register</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="position-relative">
+        <img src="https://media.istockphoto.com/id/1347652268/photo/group-of-colleagues-celebrating-success.jpg?s=612x612&w=0&k=20&c=dojtkf9ItX21j3jtlGOGpbKDs320TTAuofoGnNSZD8Y="
+            class="img-fluid w-100" style="height: 200px; object-fit: cover;">
+        <div class="position-absolute top-50 start-50 translate-middle text-center">
+            <h2 class="text-light fw-bolder">Browse Jobs</h2>
+            <p class="text-light">Home >> Browse Jobs</p>
+        </div>
     </div>
-  </div>
-</nav>
 
-  <!-- Banner -->
-  <div class="position-relative">
-    <img src="https://media.istockphoto.com/id/1347652268/photo/group-of-colleagues-celebrating-success.jpg?s=612x612&w=0&k=20&c=dojtkf9ItX21j3jtlGOGpbKDs320TTAuofoGnNSZD8Y="
-      class="img-fluid w-100" style="height: 200px; object-fit: cover;">
-    <div class="position-absolute top-50 start-50 translate-middle text-center">
-      <h2 class="text-light fw-bolder">Browse Jobs</h2>
-      <p class="text-light">Home >> Browse Jobs</p>
+    <!-- Job Section -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-3 col-md-4 mb-4">
+                <div class="card shadow-sm mb-3">
+                    <div class="card-body">
+                        <h6 class="fw-bold">Search Keywords</h6>
+                        <input type="text" class="form-control mb-3" placeholder="Search Keywords">
+                        <h6 class="fw-bold">All Locations</h6>
+                        <input type="text" class="form-control mb-3" placeholder="All Locations">
+                    </div>
+                </div>
+
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h6 class="fw-bold">Offered Salary</h6>
+                        <div class="form-check"><input class="form-check-input" type="radio" name="salary"> <label
+                                class="form-check-label">Under $10,000 (102)</label></div>
+                        <div class="form-check"><input class="form-check-input" type="radio" name="salary"> <label
+                                class="form-check-label">$10,000 - $15,000 (78)</label></div>
+                        <div class="form-check"><input class="form-check-input" type="radio" name="salary"> <label
+                                class="form-check-label">$15,000 - $20,000 (12)</label></div>
+                        <div class="form-check"><input class="form-check-input" type="radio" name="salary"> <label
+                                class="form-check-label">$20,000 - $30,000 (85)</label></div>
+                        <div class="form-check"><input class="form-check-input" type="radio" name="salary"> <label
+                                class="form-check-label">$30,000 - $40,000 (307)</label></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Job Listings -->
+            <div class="col-lg-9 col-md-8">
+                <div class="d-flex flex-wrap justify-content-between align-items-center mb-4 gap-2">
+                    <h4 class="fw-bold mb-0">98 Jobs & Vacancies</h4>
+                    <div class="d-flex flex-wrap gap-2">
+                        <select class="form-select form-select-sm w-auto">
+                            <option>Most Recent</option>
+                            <option>Oldest</option>
+                        </select>
+                        <select class="form-select form-select-sm w-auto">
+                            <option>10 Per Page</option>
+                            <option>20 Per Page</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Job Cards -->
+                <div class="card mb-3 shadow-sm">
+                    <div class="card-body d-flex flex-column flex-md-row justify-content-between">
+                        <div>
+                            <h6 class="fw-bold mb-1">Apple LTD</h6>
+                            <p class="text-muted mb-2">Software Development</p>
+                            <p class="mb-1"><strong>Job Id:</strong> G58726</p>
+                            <p class="mb-1"><strong>Job Type:</strong> Full Time</p>
+                            <p class="mb-1"><strong>Skills:</strong>
+                                <span class="badge bg-success">HTML</span>
+                                <span class="badge bg-success">CSS</span>
+                                <span class="badge bg-success">Java</span>
+                                <span class="badge bg-success">PHP</span>
+                            </p>
+                            <p class="mb-1"><strong>Experience:</strong> 3 Years</p>
+                            <p class="mb-1"><strong>Location:</strong> Kentucky, USA</p>
+                        </div>
+                        <div class="text-start text-md-end mt-3 mt-md-0">
+                            <button class="btn btn-success btn-sm mb-2">Apply Now</button><br>
+                            <button class="btn btn-outline-secondary btn-sm">View Job</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Google -->
+                <div class="card mb-3 shadow-sm">
+                    <div class="card-body d-flex flex-column flex-md-row justify-content-between">
+                        <div>
+                            <h6 class="fw-bold mb-1">Google LTD</h6>
+                            <p class="text-muted mb-2">Software Development</p>
+                            <p class="mb-1"><strong>Job Id:</strong> G58727</p>
+                            <p class="mb-1"><strong>Job Type:</strong> Full Time</p>
+                            <p class="mb-1"><strong>Skills:</strong>
+                                <span class="badge bg-success">React</span>
+                                <span class="badge bg-success">Node.js</span>
+                            </p>
+                            <p class="mb-1"><strong>Experience:</strong> 2 Years</p>
+                            <p class="mb-1"><strong>Location:</strong> California, USA</p>
+                        </div>
+                        <div class="text-start text-md-end mt-3 mt-md-0">
+                            <button class="btn btn-success btn-sm mb-2">Apply Now</button><br>
+                            <button class="btn btn-outline-secondary btn-sm">View Job</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Microsoft -->
+                <div class="card mb-3 shadow-sm">
+                    <div class="card-body d-flex flex-column flex-md-row justify-content-between">
+                        <div>
+                            <h6 class="fw-bold mb-1">Microsoft LTD</h6>
+                            <p class="text-muted mb-2">Cloud Engineering</p>
+                            <p class="mb-1"><strong>Job Id:</strong> G58728</p>
+                            <p class="mb-1"><strong>Job Type:</strong> Full Time</p>
+                            <p class="mb-1"><strong>Skills:</strong>
+                                <span class="badge bg-success">Azure</span>
+                                <span class="badge bg-success">.NET</span>
+                                <span class="badge bg-success">C#</span>
+                            </p>
+                            <p class="mb-1"><strong>Experience:</strong> 4 Years</p>
+                            <p class="mb-1"><strong>Location:</strong> Redmond, WA</p>
+                        </div>
+                        <div class="text-start text-md-end mt-3 mt-md-0">
+                            <button class="btn btn-success btn-sm mb-2">Apply Now</button><br>
+                            <button class="btn btn-outline-secondary btn-sm">View Job</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Amazon -->
+                <div class="card mb-3 shadow-sm">
+                    <div class="card-body d-flex flex-column flex-md-row justify-content-between">
+                        <div>
+                            <h6 class="fw-bold mb-1">Amazon LTD</h6>
+                            <p class="text-muted mb-2">E-commerce Tech</p>
+                            <p class="mb-1"><strong>Job Id:</strong> G58729</p>
+                            <p class="mb-1"><strong>Job Type:</strong> Full Time</p>
+                            <p class="mb-1"><strong>Skills:</strong>
+                                <span class="badge bg-success">AWS</span>
+                                <span class="badge bg-success">Python</span>
+                                <span class="badge bg-success">Django</span>
+                            </p>
+                            <p class="mb-1"><strong>Experience:</strong> 5 Years</p>
+                            <p class="mb-1"><strong>Location:</strong> Seattle, WA</p>
+                        </div>
+                        <div class="text-start text-md-end mt-3 mt-md-0">
+                            <button class="btn btn-success btn-sm mb-2">Apply Now</button><br>
+                            <button class="btn btn-outline-secondary btn-sm">View Job</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
-  </div>
-
-  <!-- Job Section -->
-  <div class="container my-5">
-    <div class="row">
-
-      <!-- Sidebar -->
-      <div class="col-md-3 mb-4">
-        <div class="card shadow-sm mb-3">
-          <div class="card-body">
-            <h6 class="fw-bold">Search Keywords</h6>
-            <input type="text" class="form-control mb-3" placeholder="Search Keywords">
-            <h6 class="fw-bold">All Locations</h6>
-            <input type="text" class="form-control mb-3" placeholder="All Locations">
-          </div>
-        </div>
-
-        <div class="card shadow-sm">
-          <div class="card-body">
-            <h6 class="fw-bold">Offered Salary</h6>
-            <div class="form-check"><input class="form-check-input" type="radio" name="salary"> <label
-                class="form-check-label">Under $10,000 (102)</label></div>
-            <div class="form-check"><input class="form-check-input" type="radio" name="salary"> <label
-                class="form-check-label">$10,000 - $15,000 (78)</label></div>
-            <div class="form-check"><input class="form-check-input" type="radio" name="salary"> <label
-                class="form-check-label">$15,000 - $20,000 (12)</label></div>
-            <div class="form-check"><input class="form-check-input" type="radio" name="salary"> <label
-                class="form-check-label">$20,000 - $30,000 (85)</label></div>
-            <div class="form-check"><input class="form-check-input" type="radio" name="salary"> <label
-                class="form-check-label">$30,000 - $40,000 (307)</label></div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Job Listings -->
-      <div class="col-md-9">
-
-        <div class="d-flex justify-content-between align-items-center mb-4">
-          <h4 class="fw-bold">98 Jobs & Vacancies</h4>
-          <div class="d-flex gap-2">
-            <select class="form-select form-select-sm w-auto">
-              <option>Most Recent</option>
-              <option>Oldest</option>
-            </select>
-            <select class="form-select form-select-sm w-auto">
-              <option>10 Per Page</option>
-              <option>20 Per Page</option>
-            </select>
-          </div>
-        </div>
-
-        <!-- Job Card Template -->
-        <div class="card mb-3 shadow-sm">
-          <div class="card-body d-flex justify-content-between">
-            <div>
-              <h6 class="fw-bold mb-1">Apple LTD</h6>
-              <p class="text-muted mb-2">Software Development</p>
-              <p class="mb-1"><strong>Job Id:</strong> G58726</p>
-              <p class="mb-1"><strong>Job Type:</strong> Full Time</p>
-              <p class="mb-1"><strong>Skills:</strong>
-                <span class="badge bg-success">HTML</span>
-                <span class="badge bg-success">CSS</span>
-                <span class="badge bg-success">Java</span>
-                <span class="badge bg-success">PHP</span>
-              </p>
-              <p class="mb-1"><strong>Experience:</strong> 3 Years</p>
-              <p class="mb-1"><strong>Location:</strong> Kentucky, USA</p>
-            </div>
-            <div class="text-end">
-              <button class="btn btn-success btn-sm mb-2">Apply Now</button><br>
-              <button class="btn btn-outline-secondary btn-sm">View Job</button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Google -->
-        <div class="card mb-3 shadow-sm">
-          <div class="card-body d-flex justify-content-between">
-            <div>
-              <h6 class="fw-bold mb-1">Google LTD</h6>
-              <p class="text-muted mb-2">Software Development</p>
-              <p class="mb-1"><strong>Job Id:</strong> G58727</p>
-              <p class="mb-1"><strong>Job Type:</strong> Full Time</p>
-              <p class="mb-1"><strong>Skills:</strong>
-                <span class="badge bg-success">React</span>
-                <span class="badge bg-success">Node.js</span>
-              </p>
-              <p class="mb-1"><strong>Experience:</strong> 2 Years</p>
-              <p class="mb-1"><strong>Location:</strong> California, USA</p>
-            </div>
-            <div class="text-end">
-              <button class="btn btn-success btn-sm mb-2">Apply Now</button><br>
-              <button class="btn btn-outline-secondary btn-sm">View Job</button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Microsoft -->
-        <div class="card mb-3 shadow-sm">
-          <div class="card-body d-flex justify-content-between">
-            <div>
-              <h6 class="fw-bold mb-1">Microsoft LTD</h6>
-              <p class="text-muted mb-2">Cloud Engineering</p>
-              <p class="mb-1"><strong>Job Id:</strong> G58728</p>
-              <p class="mb-1"><strong>Job Type:</strong> Full Time</p>
-              <p class="mb-1"><strong>Skills:</strong>
-                <span class="badge bg-success">Azure</span>
-                <span class="badge bg-success">.NET</span>
-                <span class="badge bg-success">C#</span>
-              </p>
-              <p class="mb-1"><strong>Experience:</strong> 4 Years</p>
-              <p class="mb-1"><strong>Location:</strong> Redmond, WA</p>
-            </div>
-            <div class="text-end">
-              <button class="btn btn-success btn-sm mb-2">Apply Now</button><br>
-              <button class="btn btn-outline-secondary btn-sm">View Job</button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Amazon -->
-        <div class="card mb-3 shadow-sm">
-          <div class="card-body d-flex justify-content-between">
-            <div>
-              <h6 class="fw-bold mb-1">Amazon LTD</h6>
-              <p class="text-muted mb-2">E-commerce Tech</p>
-              <p class="mb-1"><strong>Job Id:</strong> G58729</p>
-              <p class="mb-1"><strong>Job Type:</strong> Full Time</p>
-              <p class="mb-1"><strong>Skills:</strong>
-                <span class="badge bg-success">AWS</span>
-                <span class="badge bg-success">Python</span>
-                <span class="badge bg-success">Django</span>
-              </p>
-              <p class="mb-1"><strong>Experience:</strong> 5 Years</p>
-              <p class="mb-1"><strong>Location:</strong> Seattle, WA</p>
-            </div>
-            <div class="text-end">
-              <button class="btn btn-success btn-sm mb-2">Apply Now</button><br>
-              <button class="btn btn-outline-secondary btn-sm">View Job</button>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
 
 </body>
 

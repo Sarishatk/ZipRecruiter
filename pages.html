@@ -2,190 +2,196 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>User Profile</title>
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body class="bg-light">
- <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top shadow-lg">
-  <div class="container">
-    <!-- Brand -->
-    <a class="navbar-brand fw-bolder fs-2 text-uppercase tracking-wider" href="#">
-      <span class="text-light">Zip</span><span class="text-warning">Recruiter</span>
-    </a>
-
-    <!-- Toggler -->
-    <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
-      data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <!-- Links -->
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto gap-3 fs-5">
-        <li class="nav-item">
-          <a href="index.html" class="nav-link active fw-semibold position-relative">
-            Home
-          </a>
-        </li>
-
-        <!-- Dropdown -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle fw-semibold" href="employer.html" id="dropdownMenuLink" role="button"
-            data-bs-toggle="dropdown" aria-expanded="false">
-            Employer
-          </a>
-          <ul class="dropdown-menu border-0 shadow-lg rounded-3">
-            <li><a class="dropdown-item py-2" href="employer.html">Employer</a></li>
-            <li><a class="dropdown-item py-2" href="#">Employer Details</a></li>
-            <li><a class="dropdown-item py-2" href="#">Create Company</a></li>
-            <li><a class="dropdown-item py-2" href="#">Manage Resume</a></li>
-            <li><a class="dropdown-item py-2" href="#">Add Job</a></li>
-            <li><a class="dropdown-item py-2" href="#">Resume Details</a></li>
-
-          </ul>
-        </li>
-
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle fw-semibold" href="#" id="dropdownMenuLink" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Candidate
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top shadow-lg">
+        <div class="container">
+            <a class="navbar-brand fw-bolder fs-2 text-uppercase tracking-wider" href="#">
+                <span class="text-light">Zip</span><span class="text-warning">Recruiter</span>
             </a>
-            <ul class="dropdown-menu border-0 shadow-lg rounded-3">
-              <li><a class="dropdown-item py-2" href="#">Candidate</a></li>
-              <li><a class="dropdown-item py-2" href="candidate.html">Browse Jobs</a></li>
-              <li><a class="dropdown-item py-2" href="#">Manage Jobs</a></li>
-              <li><a class="dropdown-item py-2" href="#">Browse Catergories</a></li>
-            </ul>
-          </li>
-        <li class="nav-item">
-          <a href="pages.html" class="nav-link fw-semibold">Pages</a>
-        </li>
-        <li class="nav-item">
-          <a href="contact.html" class="nav-link fw-semibold">Contact</a>
-        </li>
-      </ul>
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto gap-3 fs-5">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active fw-semibold position-relative">
+                            Home
+                        </a>
+                    </li>
 
-      <!-- Buttons -->
-      <div class="d-flex ms-lg-4 mt-3 mt-lg-0 gap-2">
-        <a href="login.html" class="btn btn-light text-success rounded-pill px-4 shadow-sm fw-semibold">
-          Login
-        </a>
-        <a href="signup.html" class="btn btn-outline-light rounded-pill px-4 fw-semibold">
-          Register
-        </a>
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-semibold" href="employer.html" id="dropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Employer
+                        </a>
+                        <ul class="dropdown-menu border-0 shadow-lg rounded-3">
+                            <li><a class="dropdown-item py-2" href="employer.html">Employer</a></li>
+                            <li><a class="dropdown-item py-2" href="#">Employer Details</a></li>
+                            <li><a class="dropdown-item py-2" href="#">Create Company</a></li>
+                            <li><a class="dropdown-item py-2" href="#">Manage Resume</a></li>
+                            <li><a class="dropdown-item py-2" href="#">Add Job</a></li>
+                            <li><a class="dropdown-item py-2" href="#">Resume Details</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-semibold" href="#" id="dropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Candidate
+                        </a>
+                        <ul class="dropdown-menu border-0 shadow-lg rounded-3">
+                            <li><a class="dropdown-item py-2" href="#">Candidate</a></li>
+                            <li><a class="dropdown-item py-2" href="candidate.html">Browse Jobs</a></li>
+                            <li><a class="dropdown-item py-2" href="#">Manage Jobs</a></li>
+                            <li><a class="dropdown-item py-2" href="#">Browse Catergories</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="pages.html" class="nav-link fw-semibold">Pages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link fw-semibold">Contact</a>
+                    </li>
+                </ul>
+                <!-- btn -->
+                <div class="d-flex ms-lg-4 mt-3 mt-lg-0 gap-2">
+                    <a href="login.html" class="btn btn-light text-success rounded-pill px-4 shadow-sm fw-semibold">
+                        Login
+                    </a>
+                    <a href="signup.html" class="btn btn-outline-light rounded-pill px-4 fw-semibold">
+                        Register
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+     <div class="image w-100">
+    <img
+      src="https://media.istockphoto.com/id/1347652268/photo/group-of-colleagues-celebrating-success.jpg?s=612x612&w=0&k=20&c=dojtkf9ItX21j3jtlGOGpbKDs320TTAuofoGnNSZD8Y="
+      alt="" class="img-fluid rounded shadow" style="object-fit: cover; height: 150px; width: 100%;">
+
+    <div class="position-relative">
+      <div style="left: 42%;top: -100px;" class="position-absolute">
+        <h3>Profile <span class="text-light">>></span></h3>
       </div>
     </div>
   </div>
-</nav>
-  <div class="container my-5">
-    <div class="row">
-      <div class="col-md-3 mb-4">
-        <div class="card shadow-sm text-center">
-          <img src="https://i.pravatar.cc/300" class="card-img-top rounded-circle mx-auto mt-4"
-            style="width:120px; height:120px; object-fit:cover;" alt="User">
-          <div class="card-body">
-            <h6 class="fw-bold">Alden Smith</h6>
-          </div>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-3 mb-4">
+                <div class="card shadow-sm text-center">
+                    <img src="https://i.pravatar.cc/300" class="card-img-top rounded-circle mx-auto mt-4"
+                        style="width:120px; height:120px; object-fit:cover;" alt="User">
+                    <div class="card-body">
+                        <h6 class="fw-bold">Alden Smith</h6>
+                    </div>
+                </div>
+                <div class="list-group mt-3 shadow-sm">
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <i class="bi bi-speedometer2 me-2"></i> Dashboard
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action active">
+                        <i class="bi bi-person me-2"></i> Edit Profile
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <i class="bi bi-key me-2"></i> Change Password
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action text-danger">
+                        <i class="bi bi-box-arrow-right me-2"></i> Logout
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="fw-bold mb-3">Edit Profile</h5>
+                        <form>
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <label class="form-label">First Name</label>
+                                    <input type="text" class="form-control" placeholder="First Name">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Last Name</label>
+                                    <input type="text" class="form-control" placeholder="Last Name">
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <label class="form-label">Email</label>
+                                    <input type="email" class="form-control" placeholder="mail@example.com">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Password</label>
+                                    <input type="password" class="form-control" placeholder="">
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <label class="form-label">Phone</label>
+                                    <input type="text" class="form-control" placeholder="123 214 13247">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Address</label>
+                                    <input type="text" class="form-control" placeholder="Address">
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <label class="form-label">Gender</label>
+                                    <select class="form-select">
+                                        <option>Male</option>
+                                        <option>Female</option>
+                                        <option>Other</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Language</label>
+                                    <select class="form-select">
+                                        <option>English</option>
+                                        <option>Spanish</option>
+                                        <option>French</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <label class="form-label">Date of Birth</label>
+                                    <input type="date" class="form-control">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">User Profile</label>
+                                    <input type="file" class="form-control">
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-success px-4">Save Changes</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
         </div>
-        <div class="list-group mt-3 shadow-sm">
-          <a href="#" class="list-group-item list-group-item-action">
-            <i class="bi bi-speedometer2 me-2"></i> Dashboard
-          </a>
-          <a href="#" class="list-group-item list-group-item-action active">
-            <i class="bi bi-person me-2"></i> Edit Profile
-          </a>
-          <a href="#" class="list-group-item list-group-item-action">
-            <i class="bi bi-key me-2"></i> Change Password
-          </a>
-          <a href="#" class="list-group-item list-group-item-action text-danger">
-            <i class="bi bi-box-arrow-right me-2"></i> Logout
-          </a>
-        </div>
-      </div>
-      <div class="col-md-9">
-        <div class="card shadow-sm">
-          <div class="card-body">
-            <h5 class="fw-bold mb-3">Edit Profile</h5>
-            <form>
-              <div class="row mb-3">
-                <div class="col-md-6">
-                  <label class="form-label">First Name</label>
-                  <input type="text" class="form-control" placeholder="First Name">
-                </div>
-                <div class="col-md-6">
-                  <label class="form-label">Last Name</label>
-                  <input type="text" class="form-control" placeholder="Last Name">
-                </div>
-              </div>
-
-              <div class="row mb-3">
-                <div class="col-md-6">
-                  <label class="form-label">Email</label>
-                  <input type="email" class="form-control" placeholder="mail@example.com">
-                </div>
-                <div class="col-md-6">
-                  <label class="form-label">Password</label>
-                  <input type="password" class="form-control" placeholder="">
-                </div>
-              </div>
-
-              <div class="row mb-3">
-                <div class="col-md-6">
-                  <label class="form-label">Phone</label>
-                  <input type="text" class="form-control" placeholder="123 214 13247">
-                </div>
-                <div class="col-md-6">
-                  <label class="form-label">Address</label>
-                  <input type="text" class="form-control" placeholder="Address">
-                </div>
-              </div>
-
-              <div class="row mb-3">
-                <div class="col-md-6">
-                  <label class="form-label">Gender</label>
-                  <select class="form-select">
-                    <option>Male</option>
-                    <option>Female</option>
-                    <option>Other</option>
-                  </select>
-                </div>
-                <div class="col-md-6">
-                  <label class="form-label">Language</label>
-                  <select class="form-select">
-                    <option>English</option>
-                    <option>Spanish</option>
-                    <option>French</option>
-                  </select>
-                </div>
-              </div>
-
-              <div class="row mb-3">
-                <div class="col-md-6">
-                  <label class="form-label">Date of Birth</label>
-                  <input type="date" class="form-control">
-                </div>
-                <div class="col-md-6">
-                  <label class="form-label">User Profile</label>
-                  <input type="file" class="form-control">
-                </div>
-              </div>
-
-              <button type="submit" class="btn btn-success px-4">Save Changes</button>
-            </form>
-          </div>
-        </div>
-      </div>
-
     </div>
-  </div>
-<!-- bs icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- bs icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
